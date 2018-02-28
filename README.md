@@ -1869,6 +1869,21 @@ If you prefer to install it separately, you can download it [here](https://www.j
 
 ## Section 8: Misc
 
+### Final Steps
+Add back any important icons to the dock
+Eg: Finder, Web browser, Calender, Reminders, settings, sownloads and trash etc
+If needed add a spacer to the right side of the Dock (where the Trash is)
+#defaults write com.apple.dock persistent-others -array-add '{tile-data={}; tile-type="spacer-tile";}'
+
+Set any remaining settings (best to look through all of them once)
+	Remove extraneous user accounts
+	Fix screen resolution
+
+Set activity monitor icon
+
+Install uTorrent
+
+
 ### Contributions
 
 Bug reports, suggestions, and pull requests are [welcome](https://github.com/donnemartin/dev-setup/issues)!
