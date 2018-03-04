@@ -448,53 +448,21 @@ The [brew.sh script](#brewsh-script) installs Sublime Text.
 
 If you prefer to install it separately, go ahead and [download](http://www.sublimetext.com/) it. Open the **.dmg** file, drag-and-drop in the **Applications** folder.
 
-**Note**: At this point I'm going to create a shortcut on the OS X Dock for both for Sublime Text. To do so, right-click on the running application and select **Options > Keep in Dock**.
+~~**Note**: At this point I'm going to create a shortcut on the OS X Dock for both for Sublime Text. To do so, right-click on the running application and select **Options > Keep in Dock**.~~
 
 Sublime Text is not free, but I think it has an unlimited "evaluation period". Anyhow, we're going to be using it so much that even the seemingly expensive $70 price tag is worth every penny. If you can afford it, I suggest you [support](http://www.sublimetext.com/buy) this awesome tool.
 
 #### Configuration
 
 The [osx.sh script](#osxsh-script) contains Sublime Text configurations.
+Download the [Package manager](https://packagecontrol.io/installation)
 
-#### Soda Theme
 
-The [Soda Theme](https://github.com/buymeasoda/soda-theme) is a great UI theme for Sublime Text, especially if you use a dark theme and think the side bar sticks out like a sore thumb.
+#### Solarized Theme 
 
-##### Installation with Sublime Package Control
+The [Solarized Theme](https://packagecontrol.io/packages/Theme%20-%20Solarized%20Space) is a great UI theme for Sublime Text, especially if you use a dark theme and think the side bar sticks out like a sore thumb.
+Install [Solarized Toggle](https://packagecontrol.io/packages/Solarized%20Toggle) as well to make for easy switching.
 
-If you are using Will Bond's excellent [Sublime Package Control](http://wbond.net/sublime_packages/package_control), you can easily install Soda Theme via the `Package Control: Install Package` menu item. The Soda Theme package is listed as `Theme - Soda` in the packages list.
-
-##### Installation with Git
-
-Alternatively, if you are a git user, you can install the theme and keep up to date by cloning the repo directly into your `Packages` directory in the Sublime Text application settings area.
-
-You can locate your Sublime Text `Packages` directory by using the menu item `Preferences -> Browse Packages...`.
-
-While inside the `Packages` directory, clone the theme repository using the command below:
-
-    $ git clone https://github.com/buymeasoda/soda-theme/ "Theme - Soda"
-
-##### Activating the Theme on Sublime Text 2
-
-* Open your User Settings Preferences file `Sublime Text 2 -> Preferences -> Settings - User`
-* Add (or update) your theme entry to be `"theme": "Soda Light.sublime-theme"` or `"theme": "Soda Dark.sublime-theme"`
-
-**Example Sublime Text 2 User Settings**
-
-    {
-        "theme": "Soda Light.sublime-theme"
-    }
-
-##### Activating the Theme on Sublime Text 3
-
-* Open your User Settings Preferences file `Sublime Text -> Preferences -> Settings - User`
-* Add (or update) your theme entry to be `"theme": "Soda Light 3.sublime-theme"` or `"theme": "Soda Dark 3.sublime-theme"`
-
-**Example Sublime Text 3 User Settings**
-
-    {
-        "theme": "Soda Light 3.sublime-theme"
-    }
 
 ##### Changing Monokai Comment Color
 
